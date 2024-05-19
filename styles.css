@@ -42,9 +42,9 @@ header nav .container-nav h1 {
 header nav .container-nav p {
     text-align: center ;
     color: #ffffff;
-    text-shadow: 2px 2px 4px #000000;
+    /* text-shadow: 2px 2px 4px #000000; */
     padding-bottom: 20px;
-    filter: blur(0.5px);
+    /* filter: blur(0.5px); */
     font-size: 16px;
 }
 
@@ -152,9 +152,9 @@ footer .container .text-rodape p {
     header nav .container-nav p {
         text-align: center ;
         color: #ffffff;
-        text-shadow: 2px 2px 4px #000000;
+        /* text-shadow: 2px 2px 4px #000000; */
         padding-bottom: 20px;
-        filter: blur(0.5px);
+        /* filter: blur(0.5px); */
         font-size: 16px;
     }
 
