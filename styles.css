@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: linear-gradient(5deg, #ff9162 0, #ff8464 12.5%, #ff7262 25%, #ff5a5e 37.5%, #ff3858 50%, #ef0053 62.5%, #e10052 75%, #d60055 87.5%, #ce005c 100%);
+    background-color: #000000;
     background-size: cover; /* Faz o fundo cobrir toda a área do corpo */
     background-repeat: no-repeat; /* Evita que o fundo se repita */
 }
@@ -69,7 +69,6 @@ main section .links a {
     width: 200px;
     height: 40px;
     font-weight: bold;
-    border: 1px solid #5e227c;
     transition: 0.3s;
     transform: skew(-20deg);
     background-color: #dbd936;
@@ -78,7 +77,6 @@ main section .links a {
 
 main section .links a:hover {
     transform: none;
-    font-weight: 1000;
     color: #fff;
 }
 
@@ -104,7 +102,7 @@ footer .container .header-h .socials {
 }
 
 footer .container .header-h .socials a {
-    color: black;
+    color: #ffffff;
     margin: 0px 20px; /* Adiciona uma margem entre os ícones */
     font-size: 30px; /* Aumenta o tamanho dos ícones */
     transition: 0.3s;
@@ -112,7 +110,7 @@ footer .container .header-h .socials a {
 }
 
 footer .container .header-h .socials a:hover {
-    color: #ffffff;
+    color: #dbd936;
 
 }
 
