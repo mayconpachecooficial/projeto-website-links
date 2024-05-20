@@ -50,9 +50,14 @@ main section .links {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    text-decoration: none;
 }
 
-main section .links a {
+main section .links .a-2 {
+    padding-bottom: 35px;
+}
+
+main section .links .a-1 a {
     display: flex;
     margin: 10px;
     align-items: center;
@@ -71,9 +76,33 @@ main section .links a {
     cursor: pointer;
 }
 
-main section .links a:hover {
+main section .links .a-2 a {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 0px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    transform: skew(-20deg);
+    background-color: rgba(197, 186, 186, 0.603);
+    cursor: pointer;
+}
+
+main section .links .a-1 a:hover {
     transform: none;
     color: #fff;
+}
+
+main section .links .a-2 a:hover {
+    transform: none;
+    color: #dbd936;
 }
 
 /* Estilos para o rodapé */
